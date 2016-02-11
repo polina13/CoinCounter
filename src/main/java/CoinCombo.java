@@ -30,10 +30,23 @@ public class CoinCombo {
   public static Object makesChange(Integer number) {
     int userNumber = number;
     int quarters = 0;
+    int dimes = 0;
+    int nickels = 0;
+
     while(number>=25) {
       number -=25;
       quarters ++;
     }
-    return String.format("Your change for %d cents is: %d quarters", userNumber, quarters);
+    while(number>=10) {
+      number -=10;
+      dimes ++;
+    }
+    while(number>=5) {
+      number -=5;
+      nickels ++;
+    }
+
+    return String.format("Your change for %d cents is: %d quarters, %d dimes, %d nickels", userNumber, quarters, dimes, nickels);
   }
+
 }
