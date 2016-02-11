@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CoinComboTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-02-11T17:15:29" hostname="epicodus-64.local" time="0.002">
+<testsuite name="CoinComboTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-02-11T19:26:32" hostname="epicodus-64.local" time="0.002">
   <properties/>
-  <testcase name="makesChange_testForDimes" classname="CoinComboTest" time="0.001"/>
-  <testcase name="makesChange_testForQuarters" classname="CoinComboTest" time="0.001"/>
+  <testcase name="makesChange_testForDimes" classname="CoinComboTest" time="0.0"/>
+  <testcase name="makesChange_testForQuarters" classname="CoinComboTest" time="0.0"/>
   <testcase name="makesChange_testForNickels" classname="CoinComboTest" time="0.0"/>
+  <testcase name="makesChange_testForPennies" classname="CoinComboTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
