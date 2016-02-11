@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CoinComboTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-02-10T23:47:06" hostname="epicodus-64.local" time="0.002">
+<testsuite name="CoinComboTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-02-11T16:52:23" hostname="epicodus-64.local" time="0.001">
   <properties/>
-  <testcase name="makesChangeNickels" classname="CoinComboTest" time="0.002"/>
-  <testcase name="makesChangeDimes" classname="CoinComboTest" time="0.0"/>
-  <testcase name="makesChange" classname="CoinComboTest" time="0.0"/>
-  <testcase name="makesChangePennies" classname="CoinComboTest" time="0.0"/>
+  <testcase name="makesChange" classname="CoinComboTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

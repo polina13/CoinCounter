@@ -7,24 +7,12 @@ public class CoinComboTest {
   @Test
   public void makesChange() {
     CoinCombo testCoinCombo = new CoinCombo();
-    assertEquals("Your change is: 2 quarters 0 dimes 0 nickels 0 pennies", testCoinCombo.makesChange(51));
+    assertEquals("Your change for 27 cents is: 1 quarters", testCoinCombo.makesChange(27));
   }
 
   @Test
-  public void makesChangeDimes() {
+  public void makesChange() {
     CoinCombo testCoinCombo = new CoinCombo();
-    assertEquals("Your change is: 2 quarters 1 dimes 0 nickels 0 pennies", testCoinCombo.makesChange(61));
-  }
-
-  @Test
-  public void makesChangeNickels() {
-    CoinCombo testCoinCombo = new CoinCombo();
-    assertEquals("Your change is: 2 quarters 1 dimes 1 nickels 0 pennies", testCoinCombo.makesChange(66));
-  }
-
-  @Test
-  public void makesChangePennies() {
-    CoinCombo testCoinCombo = new CoinCombo();
-    assertEquals("Your change is: 2 quarters 1 dimes 1 nickels 1 pennies", testCoinCombo.makesChange(67));
+    assertEquals("Your change for 27 cents is: 1 quarters", testCoinCombo.makesChange(27));
   }
 }
